@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5eee1" />
+  <meta name="description" content="Amgalanbayar's Chinese introduction — family, life in Shanghai, and ECUST." />
+  <title>Amgalanbayar · 我的介绍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-goto="0">Amgalanbayar <span>安卡</span></a>
+    <nav class="top-nav" aria-label="Slide navigation">
+      <button data-goto="0" class="nav-link active"><span>01</span> 首页</button>
+      <button data-goto="1" class="nav-link"><span>02</span> 自我介绍</button>
+      <button data-goto="2" class="nav-link"><span>03</span> 我的家人</button>
+      <button data-goto="7" class="nav-link"><span>08</span> 我的生活</button>
+      <button data-goto="8" class="nav-link"><span>09</span> 谢谢</button>
+    </nav>
+    <div class="language-toggle" aria-label="Language toggle"><button id="cnBtn">中</button><button id="enBtn" class="selected">EN</button></div>
+  </header>
+
+  <aside class="side-index">
+    <div class="side-name">Amgalanbayar<small>个人介绍 · Personal introduction</small></div>
+    <div class="side-progress"><span id="sideCurrent">01</span> <i>/</i> 09</div>
+    <nav>
+      <button data-goto="0" class="side-link active"><b>01</b><span>首页<small>Home</small></span></button>
+      <button data-goto="1" class="side-link"><b>02</b><span>自我介绍<small>About me</small></span></button>
+      <button data-goto="2" class="side-link"><b>03</b><span>我的家人<small>My family</small></span></button>
+      <button data-goto="3" class="side-link"><b>04</b><span>我的爸爸<small>My father</small></span></button>
+      <button data-goto="4" class="side-link"><b>05</b><span>我的妈妈<small>My mother</small></span></button>
+      <button data-goto="5" class="side-link"><b>06</b><span>我的哥哥们<small>My brothers</small></span></button>
+      <button data-goto="6" class="side-link"><b>07</b><span>我的妹妹<small>My sister</small></span></button>
+      <button data-goto="7" class="side-link"><b>08</b><span>我的生活<small>Life in China</small></span></button>
+      <button data-goto="8" class="side-link"><b>09</b><span>谢谢大家<small>Thank you</small></span></button>
+    </nav>
+    <div class="side-bottom">上海 · SHANGHAI<br><span>用中文认识世界</span></div>
+  </aside>
+
+  <main class="deck" id="deck">
+    <section class="slide hero-slide active" data-slide="0">
+      <div class="hero-shade"></div><div class="hero-blossom">✿</div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-zh="我的中文之旅 · 第一章" data-en="MY CHINESE JOURNEY · CHAPTER ONE">MY CHINESE JOURNEY · CHAPTER ONE</p>
+        <p class="hello" data-zh="大家好！" data-en="Dàjiā hǎo!">大家好！</p>
+        <h1 data-zh="我叫 Amgalanbayar。" data-en="My name is Amgalanbayar.">我叫 Amgalanbayar。</h1>
+        <p class="hero-pinyin">Wǒ jiào Amgalanbayar.</p>
+        <p class="hero-desc" data-zh="我十八岁。我是蒙古人。现在我在 ECUST 学习中文。" data-en="I am 18 years old, from Mongolia, and studying Chinese at ECUST.">I am 18 years old, from Mongolia, and studying Chinese at ECUST.</p>
+        <button class="pill-button" data-goto="1"><span data-zh="开始了解我" data-en="Get to know me">Get to know me</span> <b>↗</b></button>
+      </div>
+      <div class="hero-location"><span>中国 · 上海</span><small>CHINA · SHANGHAI</small></div>
+      <div class="hero-counter">01 <span>/ 09</span></div>
+      <div class="scroll-hint">↓ <span data-zh="继续探索" data-en="SCROLL TO EXPLORE">SCROLL TO EXPLORE</span></div>
+    </section>
+
+    <section class="slide paper-slide" data-slide="1">
+      <div class="slide-number">01</div><div class="paper-copy">
+        <p class="eyebrow">GUAN YU WO · 关于我</p><h2>自我介绍 <em>About Me</em></h2>
+        <div class="language-line"><strong>我叫 Amgalanbayar。</strong><small>Wǒ jiào Amgalanbayar.</small></div>
+        <div class="language-line"><strong>我十八岁。</strong><small>Wǒ shíbā suì.</small></div>
+        <div class="language-line"><strong>我是蒙古人。</strong><small>Wǒ shì Měnggǔ rén.</small></div>
+        <div class="language-line"><strong>我现在在 ECUST 学习中文。</strong><small>Wǒ xiànzài zài ECUST xuéxí Zhōngwén.</small></div>
+        <p class="english-copy" data-zh="我希望学习更多中文，也认识新朋友。" data-en="I hope to learn more Chinese and make new friends.">I hope to learn more Chinese and make new friends.</p>
+        <div class="facts"><div><span>年龄 · Age</span><b>18 岁</b></div><div><span>国家 · Country</span><b>蒙古 · Mongolia</b></div><div><span>学校 · School</span><b>ECUST</b></div></div>
+      </div>
+      <div class="feature-image study-image"><div class="image-caption">学习让世界更大 <small>Xuéxí ràng shìjiè gèng dà</small></div></div>
+      <div class="corner-stamp">安卡<br><small>上海</small></div>
+    </section>
+
+    <section class="slide family-overview" data-slide="2">
+      <div class="family-heading"><div class="slide-number">02</div><div><p class="eyebrow">WO DE JIAREN · 我的家人</p><h2>我的家人 <em>My Family</em></h2><p class="family-intro">我家有六口人。<small>Wǒ jiā yǒu liù kǒu rén.</small></p><p class="english-copy" data-zh="这是我的爸爸、妈妈、两个哥哥、我和一个妹妹。" data-en="There are six people in my family: my father, mother, two older brothers, me, and my younger sister.">There are six people in my family: my father, mother, two older brothers, me, and my younger sister.</p></div></div>
+      <div class="family-portrait" role="img" aria-label="Anime-style illustration representing a family of six"><div class="portrait-tag">家人是最温暖的地方 <small>Family is where warmth begins</small></div></div>
+      <div class="family-footer"><span>六口之家 · A FAMILY OF SIX</span><button class="text-button" data-goto="3">认识我的家人 <b>→</b></button></div>
+    </section>
+
+    <section class="slide person-slide" data-slide="3">
+      <div class="slide-number">03</div><div class="person-art father-art"><span class="art-label">爸爸 · BATJARGAL</span></div><div class="person-copy"><p class="eyebrow">WO DE BABA · 我的爸爸</p><h2>我的爸爸 <em>My Father</em></h2><div class="language-line"><strong>他叫 Batjargal。</strong><small>Tā jiào Batjargal.</small></div><div class="language-line"><strong>他很忙。</strong><small>Tā hěn máng.</small></div><p class="english-copy" data-zh="他工作很忙。" data-en="His name is Batjargal. He is very busy.">His name is Batjargal. He is very busy.</p><div class="quote-mark">“</div><p class="small-note">爸爸 · Father</p></div>
+    </section>
+
+    <section class="slide person-slide reverse" data-slide="4">
+      <div class="slide-number">04</div><div class="person-art mother-art"><span class="art-label">妈妈 · OYUNJARGAL</span></div><div class="person-copy"><p class="eyebrow">WO DE MAMA · 我的妈妈</p><h2>我的妈妈 <em>My Mother</em></h2><div class="language-line"><strong>她叫 Oyunjargal。</strong><small>Tā jiào Oyunjargal.</small></div><div class="language-line"><strong>她是一名老师。</strong><small>Tā shì yì míng lǎoshī.</small></div><p class="english-copy" data-zh="她是一名老师。" data-en="Her name is Oyunjargal. She is a teacher.">Her name is Oyunjargal. She is a teacher.</p><div class="quote-mark">“</div><p class="small-note">妈妈 · Mother</p></div>
+    </section>
+
+    <section class="slide brothers-slide" data-slide="5">
+      <div class="slide-number">05</div><div class="brothers-header"><p class="eyebrow">WO DE GEGE · 我的哥哥们</p><h2>我的两个哥哥 <em>My Older Brothers</em></h2><p class="english-copy" data-zh="他们都很忙。" data-en="Both of my older brothers are busy.">Both of my older brothers are busy.</p></div>
+      <div class="brother-cards"><article class="brother-card"><div class="brother-art brother-one"></div><p class="role">大哥 · OLDER BROTHER</p><h3>Tuguldur</h3><p>他很忙。<small>Tā hěn máng.</small></p><p class="translation">He is busy.</p></article><article class="brother-card"><div class="brother-art brother-two"></div><p class="role">二哥 · OLDER BROTHER</p><h3>Tugsbadral</h3><p>他很忙。<small>Tā hěn máng.</small></p><p class="translation">He is busy.</p></article></div>
+    </section>
+
+    <section class="slide person-slide reverse sister-slide" data-slide="6">
+      <div class="slide-number">06</div><div class="person-art sister-art"><span class="art-label">妹妹 · NARANGERELT</span></div><div class="person-copy"><p class="eyebrow">WO DE MEIMEI · 我的妹妹</p><h2>我的妹妹 <em>My Younger Sister</em></h2><div class="language-line"><strong>她叫 Narangerelt。</strong><small>Tā jiào Narangerelt.</small></div><div class="language-line"><strong>她喜欢跳舞。</strong><small>Tā xǐhuan tiàowǔ.</small></div><p class="english-copy" data-zh="她喜欢跳舞。" data-en="Her name is Narangerelt. She likes dancing.">Her name is Narangerelt. She likes dancing.</p><div class="quote-mark">“</div><p class="small-note">妹妹 · Younger sister</p></div>
+    </section>
+
+    <section class="slide life-slide" data-slide="7">
+      <div class="slide-number">07</div><div class="life-copy"><p class="eyebrow">WO ZAI ZHONGGUO DE SHENGHUO · 我在中国的生活</p><h2>我在上海 <em>My Life in China</em></h2><div class="language-line"><strong>我现在在上海学习中文。</strong><small>Wǒ xiànzài zài Shànghǎi xuéxí Zhōngwén.</small></div><div class="language-line"><strong>上海是一个很大的城市。</strong><small>Shànghǎi shì yí ge hěn dà de chéngshì.</small></div><p class="english-copy" data-zh="我很高兴在中国学习，也希望了解更多中国文化。" data-en="I am happy to study in China and hope to learn more about Chinese culture.">I am happy to study in China and hope to learn more about Chinese culture.</p><div class="red-seal">上海<small>SHANGHAI</small></div></div><div class="life-art"></div>
+    </section>
+
+    <section class="slide ending-slide" data-slide="8"><div class="ending-overlay"></div><div class="ending-copy"><p class="eyebrow">我的介绍 · THE END</p><h2>谢谢大家！</h2><p class="ending-pinyin">Xièxie dàjiā!</p><p data-zh="谢谢大家听我的介绍。" data-en="Thank you for listening to my introduction.">Thank you for listening to my introduction.</p><button class="pill-button" data-goto="0"><span data-zh="回到首页" data-en="Back to beginning">Back to beginning</span> <b>↻</b></button></div><div class="ending-footer">安卡 · Amgalanbayar <span>用中文认识世界</span></div></section>
+  </main>
+
+  <footer class="controls"><button id="prevBtn" aria-label="Previous slide">←</button><div class="dots" id="dots"></div><span class="control-count"><b id="currentNum">01</b> / 09</span><button id="nextBtn" aria-label="Next slide">→</button></footer>
+  <script src="script.js"></script>
+</body>
+</html>
